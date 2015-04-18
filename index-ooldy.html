@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> .:Administrator Panel: AddonCars :.</title>
+<script type="text/javascript" src="swfobject/swfobject.js"></script>
+<style type="text/css">
+<!--
+body {
+	background-color: #CCCCCC;
+	margin: 0px;
+}
+body,td,th {
+	color: #666666;
+}
+-->
+</style>
+</head>
+<body>
+
+ <div id="flashMovie"></div>
+    <script type="text/javascript">
+	// <![CDATA[
+
+	var so = new SWFObject("admin.swf", "flashMovie", "100%", "730", "8", "#FFFFFF");
+	
+	so.addParam("scale", "false");
+	so.addParam("allowscriptaccess", "exactFit");
+	so.write("flashMovie");
+
+	// ]]>
+    </script>
+
+
+</body>
+</html>
